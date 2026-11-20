@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MapPin, Clock, Compass, Sparkles } from 'lucide-react';
-import worldMapUrl from '../../assets/world-map.png';
+
+const worldMapUrl = `${import.meta.env.BASE_URL}world-map.png`;
 
 interface ContactZone {
   id: string;
